@@ -1,0 +1,14 @@
+#content-left{
+    height:97vh;
+    width:11%;
+    background-color: #2E8B57;
+}
+#menu{
+    background-color: #8FBC8F;
+    width:98%;
+    margin-top: 3px;
+    /* height: 100%; */
+}
+body{
+    background-color: #98FB98;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    background-color: rgb(225, 187, 84);
+    border: none;
+    text-align: center;  
+    
+}
+
+.block > p {
+    position: relative;
+    top: 30%;
+}
+
+
+ #content{
+    width:70%;
+    margin: 15px auto;
+    background-color: beige;
+    border: 1px dotted burlywood;
+ }
+ #hd, #ft{
+    margin: 10px auto;
+    width:95%;
+    height:50px;
+    clear:both;
+    background-color: rgb(218, 255, 192);
+    
+
+ }
+
+ #col1{
+    float:left;
+    background-color: pink;
+    width: 60%;
+ }
+ #col2{
+    float:right;   
+    background-color: rgb(187, 187, 228);
+ }
+ .col{
+    width:30%;
+    margin: 10px 2.5%;
+    height:200px;
+ }

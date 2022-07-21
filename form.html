@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="les1.html" method="POST">
+        <label for="email"> Введіть Email
+            <input type="text" id="email" placeholder="email@gmail.com">
+        </label>
+        <br>
+        <br>
+        <label for="password"> Введіть пароль
+            <input type="password" id="password" placeholder="password">
+        </label>
+        <br>
+        <br>
+        <label for="password"> Введіть пароль (заблоковано)
+            <input type="password" id="password" placeholder="password" disabled>
+        </label>
+        <br>
+        <br>Ваш гендер<br>
+        <input type="radio" name="radio1">жінка
+        <input type="radio" name="radio1">чоловік
+        <br><br>
+        Чи згодні ви з правилами? <br>
+        <input type="checkbox" name="rules" id="">так
+        <input type="checkbox" name="rules" id="">ні
+        <input type="checkbox" name="rules" id="">не зовсім
+        <br>
+        <br>Ваше місто<br>
+        <select name="" id="">
+            <option value="">Київ</option>
+            <option value="">Харків</option>
+            <option value="">Миколаїв</option>
+            <option value="">Херсон</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <br><br>
+        <button type="reset">Очистити</button>
+</form>
+</body>
+</html>

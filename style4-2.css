@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+.block{
+    background-color: rgb(237, 185, 185);
+    border: 2px dashed grey;
+    color: brown; 
+    height:50px;
+    width:80%;
+
+}
+.content{
+    padding-top: 5px;
+    width:60%;
+    margin: 0 auto;
+    background-color: coral;
+}
+.column1, .column2, .column3{
+    width:35%;
+}
+.column1{
+    float: left;
+}
+
+.column2{
+    float: right;
+}
+.column3{
+    clear:both;
+    margin: 0 auto;
+}
+.header, .footer{
+    margin: 5px 20px 50px 100px;
+    padding: 10px;
+}

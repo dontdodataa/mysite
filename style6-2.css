@@ -1,0 +1,43 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header{
+        background-color: darkkhaki;
+        color:darkgreen;
+        height:min-content;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;   
+    }
+    body{
+        background-color: rgb(243, 238, 193);
+    }
+    
+    a{
+        text-decoration: none;
+        color:darkgreen;
+        padding:10px;
+    }
+    .content{
+        margin:5px 20px;
+    }
+    .content  a:hover{
+       background-color: rgb(204, 247, 94);
+    }
+/* other */
+    .other{
+        margin:5px 35px;
+        padding:10px;
+    }
+    .other > a {
+        background-color:cornsilk;
+        border-radius: 15px;
+    }
+    .other a:hover {   
+        background-color:rgb(242, 219, 127);
+    }
